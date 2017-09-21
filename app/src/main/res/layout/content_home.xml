@@ -4,12 +4,63 @@
     android:layout_height="match_parent"
     android:layout_width="fill_parent"
     android:orientation="vertical"
-    android:paddingTop="60dp"
+    android:paddingTop="@dimen/paddingTop"
+    android:background="@color/material_grey_700"
     >
 
 
-
-
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/fname"
+                android:paddingTop="@dimen/tvpT"
+                android:paddingBottom="@dimen/tvpB"
+                android:paddingRight="@dimen/tvpR"
+                android:paddingLeft="@dimen/tvpL"
+                android:textSize="@dimen/tvs"
+                android:hint="@string/str_fname"
+                android:textColorHint="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/lname"
+                android:layout_below="@+id/fname"
+                android:paddingTop="@dimen/tvpT"
+                android:paddingBottom="@dimen/tvpB"
+                android:paddingRight="@dimen/tvpR"
+                android:paddingLeft="@dimen/tvpL"
+                android:textSize="@dimen/tvs"
+                android:hint="@string/str_lname"
+                android:textColorHint="@android:color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/phone"
+                android:layout_below="@+id/lname"
+                android:paddingTop="@dimen/tvpT"
+                android:paddingBottom="@dimen/tvpB"
+                android:paddingRight="@dimen/tvpR"
+                android:paddingLeft="@dimen/tvpL"
+                android:textSize="@dimen/tvs"
+                android:hint="@string/str_phone"
+                android:textColorHint="@android:color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/email"
+                android:layout_below="@+id/phone"
+                android:paddingTop="@dimen/tvpT"
+                android:paddingBottom="@dimen/tvpB"
+                android:paddingRight="@dimen/tvpR"
+                android:paddingLeft="@dimen/tvpL"
+                android:textSize="@dimen/tvs"
+                android:hint="@string/str_email"
+                android:textColorHint="@android:color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
 
 
 </RelativeLayout>

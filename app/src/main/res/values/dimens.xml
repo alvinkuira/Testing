@@ -1,3 +1,21 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+
+    <!-- PADDING-->
+    <dimen name="paddingTop">80dp</dimen>
+    <dimen name="signuppadding">30dp</dimen>
+
+    <!-- BUTTON-->
+    <dimen name="buttonwidth200">200dp</dimen>
+
+    <!-- TEXT VIEW PADDING-->
+    <dimen name="tvpT">20dp</dimen>
+    <dimen name="tvpB">20dp</dimen>
+    <dimen name="tvpL">10dp</dimen>
+    <dimen name="tvpR">5dp</dimen>
+
+    <!-- TEXT VIEW TEXT SIZE-->
+    <dimen name="tvs">50px</dimen>
+
+
 </resources>
